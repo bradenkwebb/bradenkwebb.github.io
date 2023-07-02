@@ -12,7 +12,8 @@ h2 {
     font-size: 18px;    
     word-wrap: break-word;
     margin-top: 20px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
+    color: #666;
 }
 
 img {
@@ -29,15 +30,14 @@ li {
     }
 
 li, a {
-    align-items: center;
     display: flex;
+    align-items: center;
     color: black;
     text-align: center;
-    padding: 10px 12px;
+    padding: 8px;
     text-decoration: none;
-
+    justify-content: space-between;
 }
-
 
 #nav {
     list-style: none;
@@ -45,7 +45,6 @@ li, a {
     margin: auto;
     display: flex;
     max-width: 750px;
-    overflow: auto;
 }
 
 .horizontal-bar {
@@ -54,7 +53,40 @@ li, a {
     width: 75%;
 }
 
+.essay-style-content{
+    margin: auto;
+    width: 75%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #nav li a:hover {
     color: black;
     font-weight: bold;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background: rgb(3, 7, 29);
+      color: rgb(255, 255, 255);
+    }
+    
+    li, a {
+        color: white
+    }
+
+    h2 {
+        color: #bebebe;
+    }
+
+    #nav li a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    body :not(img) {
+        /* filter: invert(100%); */
+    }
+  }
