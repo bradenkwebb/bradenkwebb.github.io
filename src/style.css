@@ -39,6 +39,15 @@ li, a {
     justify-content: space-between;
 }
 
+li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+p a {
+    display: inline;
+}
+
 #nav {
     list-style: none;
     padding: auto;
@@ -63,10 +72,7 @@ li, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#nav li a:hover {
-    color: black;
-    font-weight: bold;
-}
+/* Make  */
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -82,7 +88,7 @@ li, a {
         color: #bebebe;
     }
 
-    #nav li a:hover {
+    li a:hover {
         color: rgb(255, 255, 255);
     }
 
