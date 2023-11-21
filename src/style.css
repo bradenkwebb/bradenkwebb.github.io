@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2{
     text-align: center;
     font-size: 18px;    
     word-wrap: break-word;
@@ -25,11 +25,8 @@ img {
     margin-right: auto;
 }
 
-li {
+.nav_list_items {
     float: left;
-    }
-
-li, a {
     display: flex;
     align-items: center;
     color: black;
@@ -62,7 +59,7 @@ p a {
     width: 75%;
 }
 
-.essay-style-content{
+.essay-style-content, .project_description{
     margin: auto;
     width: 75%;
     text-align: justify;
@@ -72,7 +69,19 @@ p a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Make  */
+.project_description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+#project_list li {
+    /* list-style: none; */
+    margin-left: -40px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -86,6 +95,10 @@ p a {
 
     h2 {
         color: #bebebe;
+    }
+    
+    .nav_list_items {
+        color: white;
     }
 
     li a:hover {

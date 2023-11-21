@@ -17,27 +17,58 @@
             <div id="nav" style="display: flex; align-items: center;">
                 <div class="horizontal-bar">
                     <ul style="list-style: none; align-content: center;">
-                        <li><a href="/src/index.html">Home</a></li>
-                        <li><a href="/src/about_me.html">About Me</a></li>
-                        <li><a href="/src/resume.html">Resume</a></li>
-                        <li><a href="/src/contact.html">Contact</a></li>
-                        <li><a href='/src/projects.html'>Projects</a></li>
+                        <li class="nav_list_items"><a class="nav_list_items" href="/src/index.html">Home</a></li>
+                        <li class="nav_list_items"><a class="nav_list_items" href="/src/about_me.html">About Me</a></li>
+                        <li class="nav_list_items"><a class="nav_list_items" href="/src/resume.html">Resume</a></li>
+                        <li class="nav_list_items"><a class="nav_list_items" href="/src/contact.html">Contact</a></li>
+                        <li class="nav_list_items"><a class="nav_list_items" href='/src/projects.html'>Projects</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        
-        <div id="project_list">
+
+        <div id="projects" class="essay-style-content">
             <h3>Projects</h3>
-            <ul>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
-                <li><a href="/src/projects/2021-09-01-ml-theory.html">ML Theory</a></li>
+            <p>
+                I'm still working on building out this portion of the website and will add more projects soon.
+                In the meantime, please check out my <a href="https://github.com/bradenkwebb">Github</a> to see some my other projects.
+            </p>
+            <ul id="project_list">
+                <li>
+                    Leveraging a Language Modeling Prior for Neural Machine Translation
+                    <p class="project_description">
+                        Description of project here
+                    </p>
+                </li>
+                <li>
+                    Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach
+                    <p class="project_description">
+                        I spent the summer of 2022 working full-time at <a href="https://dragn.ai/">DRAGN Labs</a> as a research assistant.
+                        My research, and that of the rest of our team, resulted in the following academic publication from CHI '23:
+                        <br></br>
+                        <a href="https://dl.acm.org/doi/10.1145/3544548.3581441">Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach</a>
+                        <br></br>
+                    </p>
+                </li>
+                <li>
+                    Fuzzy Matching of American Surnames with IPA Representation
+                    <p class="project_description">
+                        Description of project here
+                    </p>
+                </li>
+                <li>
+                    LLM-based Sentiment Analysis of Slovak Tweets
+                    <p class="project_description">
+                        This was my final semester project for my graduate-level Natural Language Processing class, LING 581. 
+                        Since the first transformer-based Slovak language model of significant size, 
+                        <a href="https://huggingface.co/gerulata/slovakbert">SlovakBERT</a>
+                        , was
+                        <a href="https://arxiv.org/abs/2109.15254"> published</a> 
+                        in October of 2021, I decided to use it to replicate their then state-of-the-art performance of sentiment classification
+                        in the Slovak language. This was my first experience reproducing the results of an academic paper, and I learned a lot as I
+                        used the Hugging Face and queried the Twitter API to collect the data I needed.
+                    </p>
+                </li>
             </ul>
         </div>
     </body>
