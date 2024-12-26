@@ -3,20 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+profile_photo: assets/square_headshot.jpeg
 ---
 
-<style>
-  .profile_photo {
-    /* display: block; */
-    width: 20%;
-    margin: 0 auto 1rem auto;
-    border-radius: 20%;
-    color:hsl(0, 25.90%, 42.40%);
-  }
-</style>
+Welcome to my website!
 
-<img class="profile_photo" src="assets/square_headshot.jpeg" alt="Picture of Braden" title="Picture of Braden"/>
+I'm a machine learning researcher and engineer with expertise in NLP, deep learning, LLMs, and knowledge graphs, backed by a strong mathematical foundation. I specialize in building practical ML applications while bringing versatile experience across front-end development and scientific computing.
 
-## Welcome to my website!
+My work sits at the intersection of theoretical ML and practical engineering, combining rigorous mathematical thinking with hands-on software development. Through this portfolio, I showcase selected projects that demonstrate my ability to translate complex ML concepts into impactful applications.
 
-<!-- ![Picture of Braden](assets/square_headshot.jpeg) -->
+I'm currently employed at [Pacific Northwest National Laboratory](https://www.pnnl.gov/) as a Machine Learning Research Associate, where my work has involved developing RAG systems, interactive web applications, and physics-based environmental simulations.
+
+Expertise:
+
+- Natural Language Processing & Large Language Models
+- Network Science & Knowledge Graphs
+- Full-stack Development
+- Scientific Computing & Simulation
+
+I'm a data scientist and engineer specializing in natural language processing and network science.

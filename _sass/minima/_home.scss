@@ -1,0 +1,18 @@
+.photo-text-wrap {
+  margin-bottom: 1em;
+}
+
+.photo-text-wrap img {
+  float: left;
+  margin: 0 2em 0.5em 0;
+  width: 30%; /* Adjust this value to control image width */
+  box-shadow: 3px 3px 10px black;
+  border-radius: 50%;
+}
+
+/* Clear the float after the container */
+.photo-text-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
