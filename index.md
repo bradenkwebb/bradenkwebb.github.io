@@ -7,14 +7,16 @@ layout: home
 
 <style>
   .profile_photo {
-    display: block;
-    width: 40%;
+    /* display: block; */
+    width: 20%;
     margin: 0 auto 1rem auto;
     border-radius: 20%;
+    color:hsl(0, 25.90%, 42.40%);
   }
 </style>
 
 <img class="profile_photo" src="assets/square_headshot.jpeg" alt="Picture of Braden" title="Picture of Braden"/>
-Welcome to my website!
+
+## Welcome to my website!
 
 <!-- ![Picture of Braden](assets/square_headshot.jpeg) -->
