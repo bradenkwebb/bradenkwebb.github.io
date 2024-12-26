@@ -6,7 +6,7 @@ layout: home
 profile_photo: assets/square_headshot.jpeg
 ---
 
-Welcome to my website!
+<h2>Welcome to my website!</h2>
 
 I'm a machine learning researcher and engineer with expertise in NLP, deep learning, LLMs, and knowledge graphs, backed by a strong mathematical foundation. I specialize in building practical ML applications while bringing versatile experience across front-end development and scientific computing.
 
@@ -20,5 +20,3 @@ Expertise:
 - Network Science & Knowledge Graphs
 - Full-stack Development
 - Scientific Computing & Simulation
-
-I'm a data scientist and engineer specializing in natural language processing and network science.
