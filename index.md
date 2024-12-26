@@ -4,6 +4,7 @@
 
 layout: home
 profile_photo: assets/square_headshot.jpeg
+list_title: Projects
 ---
 
 <h2>Welcome to my website!</h2>
