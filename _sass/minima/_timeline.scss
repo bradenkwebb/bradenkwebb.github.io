@@ -1,0 +1,85 @@
+// Variables
+$color-primary: #004ffc;
+$color-light: rgb(0, 0, 0);
+$spacing: 50px;
+$radius: 4px;
+$date: 120px;
+$dotborder: 4px;
+$dot: 11px;
+$line: 4px;
+
+#timeline-content {
+  margin-top: $spacing;
+  text-align: center;
+}
+
+// Timeline
+.timeline {
+  border-left: $line solid $color-primary;
+  border-bottom-right-radius: $radius;
+  border-top-right-radius: $radius;
+  margin: $spacing auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: $spacing;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 70%; // Increased from 30%
+  margin-left: $date + $spacing * 2; // Added to maintain date spacing
+
+  h1 {
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+  }
+
+  h2,
+  h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+
+  .event {
+    border-bottom: 1px dashed rgba($color-light, 0.1);
+    padding-bottom: $spacing * 0.5;
+    margin-bottom: $spacing;
+    position: relative;
+
+    &:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: none;
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      display: block;
+      top: 0;
+    }
+
+    &:before {
+      left: (($date * 0.6 + $spacing + $line + $dot + ($dotborder * 2)) * 1.5) *
+        -1;
+      content: attr(data-date);
+      text-align: right;
+      font-weight: 100;
+      min-width: $date;
+    }
+
+    &:after {
+      box-shadow: 0 0 0 $dotborder rgba($color-primary, 1);
+      left: ($spacing + $line + ($dot * 0.35)) * -1;
+      background: lighten($background-color, 5%);
+      border-radius: 50%;
+      height: $dot;
+      width: $dot;
+      content: "";
+      top: 5px;
+    }
+  }
+}
