@@ -40,4 +40,3 @@ You can find the source code for Jekyll at GitHub:
 - [Bundler](https://bundler.io/)
 - [Minima Theme v2.5.0](https://github.com/jekyll/minima/blob/v2.5.0/README.md)
 - [Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html#minimum-viable-documentation)
--
