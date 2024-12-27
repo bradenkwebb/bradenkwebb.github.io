@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Dense Cell-Level Cancer Detection with Convolutional Neural Networks"
-date: 2022-10-15
+date: 2022-10-1
 categories: pytorch cnn deep-learning neural-networks
 published: True
 ---
 
-Navigate to [complete Jupyter Notebook](https://github.com/bradenkwebb/cs_474/blob/main/cancer-detection.ipynb).
-
-<a href="https://colab.research.google.com/github/bradenkwebb/cs_474/blob/main/cancer-detection.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+I completed the following project as part of BYU's _CS 474 - Introduction to Deep Learning_ course. Feel free to navigate to the [complete Jupyter Notebook](https://github.com/bradenkwebb/cs_474/blob/main/cancer-detection.ipynb) on my GitHub, or <a href="https://colab.research.google.com/github/bradenkwebb/cs_474/blob/main/cancer-detection.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
 
 ## Lab 4: Cancer Detection
 
