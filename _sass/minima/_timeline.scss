@@ -3,10 +3,11 @@ $color-primary: #004ffc;
 $color-light: rgb(0, 0, 0);
 $spacing: 50px;
 $radius: 4px;
-$date: 120px;
+$date: 160px;
 $dotborder: 4px;
 $dot: 11px;
 $line: 4px;
+$date-gap: 40px;
 
 #timeline-content {
   margin-top: $spacing;
@@ -80,6 +81,33 @@ $line: 4px;
       width: $dot;
       content: "";
       top: 5px;
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: 1024px) {
+  .timeline {
+    max-width: 80%;
+
+    .event {
+      &:before {
+        font-size: 0.8em; // Slightly smaller date text on medium screens
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    max-width: 90%;
+    margin-left: $date + $spacing;
+
+    .event {
+      &:before {
+        left: -($date + $spacing/2); // Adjusted spacing for mobile
+        min-width: $date * 0.8; // Smaller date width on mobile
+      }
     }
   }
 }
