@@ -13,7 +13,7 @@ I completed the following project as part of BYU's _CS 474 - Introduction to Dee
 ### Objective
 
 - To build a dense prediction model
-- To begin reading current papers in DNN research
+- To implement current papers in DNN research
 
 ### Deliverable
 
@@ -25,8 +25,8 @@ This is an image in the test set that your network will not have seen before.
 This image, and the ground truth labeling, is shown below.
 (And is contained in the downloadable dataset below).
 
-![](http://liftothers.org/dokuwiki/lib/exe/fetch.php?w=200&tok=a8ac31&media=cs501r_f2016:pos_test_000072_output.png)
-<img src="http://liftothers.org/dokuwiki/lib/exe/fetch.php?media=cs501r_f2016:pos_test_000072.png" width="200">
+<img src="{{ site.url }}/assets/cancer-detection_files/pos_test_000072.png" width="200">
+![example_label]({{ site.url }}/assets/cancer-detection_files/pos_test_000072_output.png)
 
 ### Grading standards
 
