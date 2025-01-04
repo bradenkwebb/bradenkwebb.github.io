@@ -9,11 +9,13 @@ list_title: Projects
 
 <h2>Welcome to my website!</h2>
 
-I'm a machine learning researcher and engineer with expertise in NLP, deep learning, LLMs, and knowledge graphs, backed by a strong mathematical foundation. I specialize in building practical ML applications while bringing versatile experience across front-end development and scientific computing.
+I'm a machine learning researcher and engineer with expertise in NLP, deep learning, LLMs, and knowledge graphs, backed by formal education in mathematics and computer science. I specialize in building practical ML applications while bringing versatile experience across front-end development and scientific computing.
 
 My work sits at the intersection of theoretical ML and practical engineering, combining rigorous mathematical thinking with hands-on software development. Through this portfolio, I showcase selected projects that demonstrate my ability to translate complex ML concepts into impactful applications.
 
 I'm currently employed at [Pacific Northwest National Laboratory](https://www.pnnl.gov/) as a Machine Learning Research Associate, where my work has involved developing RAG systems, interactive web applications, and physics-based environmental simulations.
+
+I'm open to full-time opportunities in `{ ML | data }` `{ science | engineering}` in the greater Boston area. Feel free to reach out if you think I'd be a good fit for your team!
 
 ### Expertise:
 
