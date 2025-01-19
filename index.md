@@ -22,7 +22,7 @@ I'm open to full-time opportunities in `{ ML | data }` `{ science | engineering}
 - Natural Language Processing & Large Language Models
 - Network Science & Knowledge Graphs
 - Full-stack Development
-- Scientific Computing & Simulation
+- Data Science & Machine Learning
 
 ## Publications
 
