@@ -46,5 +46,38 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
+
+/* Expose key Sass colors as CSS custom properties for runtime theming. */
+:root {
+  --color-text: #{$text-color};
+  --color-bg: #{$background-color};
+  --color-brand: #{$brand-color};
+  --color-grey: #{$grey-color};
+  --color-grey-light: #{$grey-color-light};
+  --color-code-bg: #eef;
+}
+
+/* System preference fallback: prefer dark if OS requests it */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #f5f5f5;
+    --color-bg: #0b0b0b;
+    --color-brand: #2a7ae2;
+    --color-grey: #bfbfbf;
+    --color-grey-light: #{$grey-color-light};
+    --color-code-bg: #232323;
+  }
+}
+
+/* Explicit user-selected dark theme (applied via `.dark` on <html>) */
+.dark {
+  --color-text: #f5f5f5;
+  --color-bg: #0b0b0b;
+  --color-brand: #2a7ae2;
+  --color-grey: #bfbfbf;
+  --color-grey-light: #{$grey-color-light};
+  --color-code-bg: #232323;
+}
+
 @import "minima/base", "minima/layout", "minima/syntax-highlighting",
   "minima/home", "minima/timeline";
