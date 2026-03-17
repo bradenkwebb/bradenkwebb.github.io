@@ -14,7 +14,7 @@ In particular, once you have Ruby and Bundler installed, double-check that they 
 bundle install
 ```
 
-to install the gems listed in the Gemfile, including Jekyll. To confirm that the Minima theme has been properly installed alongside Jekyll, run `bundle show minima`, which should display the directory location where Minima is installed. Opening hte `README.md` within that directory should also display the Minima documentation.
+to install the gems listed in the Gemfile, including Jekyll. To confirm that the Minima theme has been properly installed alongside Jekyll, run `bundle show minima`, which should display the directory location where Minima is installed. Opening the `README.md` within that directory should also display the Minima documentation.
 
 To view changes to your content in real-time, run the following:
 
