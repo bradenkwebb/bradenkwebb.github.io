@@ -63,3 +63,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+# The below can be toggled on to prevent the jekyll-titles-from-headings plugin
+# from automatically extracting page.title from the first heading in the content
+# in the case that none is set in the front matter.
+titles_from_headings:
+  strip_title: true

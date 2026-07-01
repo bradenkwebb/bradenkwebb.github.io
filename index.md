@@ -5,9 +5,8 @@
 layout: home
 profile_photo: assets/square_headshot.jpeg
 list_title: Projects
+title: Welcome to my website!
 ---
-
-## Welcome to my website!
 
 I'm a machine learning researcher and engineer with expertise in NLP, deep learning, LLMs, and knowledge graphs, backed by formal education in mathematics and computer science. I specialize in building practical ML applications while bringing versatile experience across front-end development and scientific computing.
 
