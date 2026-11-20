@@ -14,7 +14,7 @@ My work sits at the intersection of theoretical ML and practical engineering, co
 
 Most recently, I've been working at [Meta Reality Labs](https://tech.facebook.com/reality-labs/) as an AI Engineer, focusing on agentic AI systems. I'm contracted through [Cognara](https://www.cognara.io/), a consulting firm that specializes in AI and cognitive devops.
 
-I'm open to full-time opportunities in ML, AI, or full-stack data science in the greater Boston area. Feel free to reach out if you think I'd be a good fit for your team!
+I'm open to opportunities in ML, AI, or full-stack data science in the greater Boston area. Feel free to reach out if you think I'd be a good fit for your team!
 
 ### Expertise:
 
